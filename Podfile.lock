@@ -1,0 +1,18 @@
+PODS:
+  - Floaty (3.0.1)
+  - mp3lame-for-ios (0.1.1)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - Floaty (~> 3.0.0)
+  - mp3lame-for-ios
+  - WebViewJavascriptBridge (~> 6.0)
+
+SPEC CHECKSUMS:
+  Floaty: bb7a353deee9ddcc14c584ca9c538efdc19669f2
+  mp3lame-for-ios: 4daeb5686885be66438154050e3fe975d4ee1f07
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: de22111cbe5d58a150eb364cd52b16020a2b2d71
+
+COCOAPODS: 1.4.0

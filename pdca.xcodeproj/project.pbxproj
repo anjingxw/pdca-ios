@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A7F1DF93DAFFA81DEA3413 /* Pods_pdca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D8315CB56B4E30E996B8DB /* Pods_pdca.framework */; };
+		126182171FC842AB00B68E76 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 126182161FC842AB00B68E76 /* test.html */; };
+		1261821A1FC84D6400B68E76 /* MyRecordMp3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 126182191FC84D6400B68E76 /* MyRecordMp3View.m */; };
+		126182261FC86A1900B68E76 /* RecordingBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1261821C1FC86A1900B68E76 /* RecordingBkg@2x.png */; };
+		126182271FC86A1900B68E76 /* RecordingSignal003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1261821D1FC86A1900B68E76 /* RecordingSignal003@2x.png */; };
+		126182281FC86A1900B68E76 /* RecordCancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1261821E1FC86A1900B68E76 /* RecordCancel@2x.png */; };
+		126182291FC86A1900B68E76 /* RecordingSignal007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1261821F1FC86A1900B68E76 /* RecordingSignal007@2x.png */; };
+		1261822A1FC86A1900B68E76 /* RecordingSignal005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126182201FC86A1900B68E76 /* RecordingSignal005@2x.png */; };
+		1261822B1FC86A1900B68E76 /* RecordingSignal006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126182211FC86A1900B68E76 /* RecordingSignal006@2x.png */; };
+		1261822C1FC86A1900B68E76 /* RecordingSignal004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126182221FC86A1900B68E76 /* RecordingSignal004@2x.png */; };
+		1261822D1FC86A1900B68E76 /* RecordingSignal001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126182231FC86A1900B68E76 /* RecordingSignal001@2x.png */; };
+		1261822E1FC86A1900B68E76 /* RecordingSignal002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126182241FC86A1900B68E76 /* RecordingSignal002@2x.png */; };
+		1261822F1FC86A1900B68E76 /* RecordingSignal008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126182251FC86A1900B68E76 /* RecordingSignal008@2x.png */; };
+		12712DBD1FCABAB000C36EE7 /* XMMovableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12712DBC1FCABAB000C36EE7 /* XMMovableView.m */; };
+		1279D4921FC6BDD200CF79D9 /* XHVoiceRecordHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279D48C1FC6BDD200CF79D9 /* XHVoiceRecordHelper.m */; };
+		1279D4931FC6BDD200CF79D9 /* XHVoiceRecordHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279D48E1FC6BDD200CF79D9 /* XHVoiceRecordHUD.m */; };
+		1297C22F1FBA8C9800F10FF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297C22E1FBA8C9800F10FF4 /* AppDelegate.m */; };
+		1297C2321FBA8C9800F10FF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297C2311FBA8C9800F10FF4 /* ViewController.m */; };
+		1297C2371FBA8C9800F10FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1297C2361FBA8C9800F10FF4 /* Assets.xcassets */; };
+		1297C23A1FBA8C9800F10FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1297C2381FBA8C9800F10FF4 /* LaunchScreen.storyboard */; };
+		1297C23D1FBA8C9800F10FF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297C23C1FBA8C9800F10FF4 /* main.m */; };
+		12AFC7F21FC93FDC00BF6705 /* XHAudioPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AFC7F01FC93FDC00BF6705 /* XHAudioPlayerHelper.m */; };
+		12AFC7F51FC9402300BF6705 /* XHVoiceCommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AFC7F31FC9402300BF6705 /* XHVoiceCommonHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		126182161FC842AB00B68E76 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		126182181FC84D6400B68E76 /* MyRecordMp3View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRecordMp3View.h; sourceTree = "<group>"; };
+		126182191FC84D6400B68E76 /* MyRecordMp3View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRecordMp3View.m; sourceTree = "<group>"; };
+		1261821C1FC86A1900B68E76 /* RecordingBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingBkg@2x.png"; sourceTree = "<group>"; };
+		1261821D1FC86A1900B68E76 /* RecordingSignal003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal003@2x.png"; sourceTree = "<group>"; };
+		1261821E1FC86A1900B68E76 /* RecordCancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordCancel@2x.png"; sourceTree = "<group>"; };
+		1261821F1FC86A1900B68E76 /* RecordingSignal007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal007@2x.png"; sourceTree = "<group>"; };
+		126182201FC86A1900B68E76 /* RecordingSignal005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal005@2x.png"; sourceTree = "<group>"; };
+		126182211FC86A1900B68E76 /* RecordingSignal006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal006@2x.png"; sourceTree = "<group>"; };
+		126182221FC86A1900B68E76 /* RecordingSignal004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal004@2x.png"; sourceTree = "<group>"; };
+		126182231FC86A1900B68E76 /* RecordingSignal001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal001@2x.png"; sourceTree = "<group>"; };
+		126182241FC86A1900B68E76 /* RecordingSignal002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal002@2x.png"; sourceTree = "<group>"; };
+		126182251FC86A1900B68E76 /* RecordingSignal008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal008@2x.png"; sourceTree = "<group>"; };
+		12712DBB1FCABAB000C36EE7 /* XMMovableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMMovableView.h; sourceTree = "<group>"; };
+		12712DBC1FCABAB000C36EE7 /* XMMovableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMMovableView.m; sourceTree = "<group>"; };
+		1279D48C1FC6BDD200CF79D9 /* XHVoiceRecordHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVoiceRecordHelper.m; sourceTree = "<group>"; };
+		1279D48D1FC6BDD200CF79D9 /* XHVoiceRecordHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVoiceRecordHUD.h; sourceTree = "<group>"; };
+		1279D48E1FC6BDD200CF79D9 /* XHVoiceRecordHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVoiceRecordHUD.m; sourceTree = "<group>"; };
+		1279D48F1FC6BDD200CF79D9 /* XHFoundationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFoundationMacro.h; sourceTree = "<group>"; };
+		1279D4901FC6BDD200CF79D9 /* XHVoiceRecordHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVoiceRecordHelper.h; sourceTree = "<group>"; };
+		1279D4911FC6BDD200CF79D9 /* XHUIKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHUIKitMacro.h; sourceTree = "<group>"; };
+		1279D4941FC6BE7500CF79D9 /* XHMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMacro.h; sourceTree = "<group>"; };
+		1297C22A1FBA8C9800F10FF4 /* pdca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1297C22D1FBA8C9800F10FF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1297C22E1FBA8C9800F10FF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1297C2301FBA8C9800F10FF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1297C2311FBA8C9800F10FF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1297C2361FBA8C9800F10FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1297C2391FBA8C9800F10FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1297C23B1FBA8C9800F10FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1297C23C1FBA8C9800F10FF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12AFC7F01FC93FDC00BF6705 /* XHAudioPlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAudioPlayerHelper.m; sourceTree = "<group>"; };
+		12AFC7F11FC93FDC00BF6705 /* XHAudioPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAudioPlayerHelper.h; sourceTree = "<group>"; };
+		12AFC7F31FC9402300BF6705 /* XHVoiceCommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XHVoiceCommonHelper.m; path = pdca/record/XHVoiceCommonHelper.m; sourceTree = SOURCE_ROOT; };
+		12AFC7F41FC9402300BF6705 /* XHVoiceCommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XHVoiceCommonHelper.h; path = pdca/record/XHVoiceCommonHelper.h; sourceTree = SOURCE_ROOT; };
+		2B94A2F861C1140FD7C3580B /* Pods-pdca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdca.release.xcconfig"; path = "Pods/Target Support Files/Pods-pdca/Pods-pdca.release.xcconfig"; sourceTree = "<group>"; };
+		C4D8315CB56B4E30E996B8DB /* Pods_pdca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pdca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4BF37A01BE243352A7C69D /* Pods-pdca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdca.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pdca/Pods-pdca.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1297C2271FBA8C9800F10FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A7F1DF93DAFFA81DEA3413 /* Pods_pdca.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9FDD2C156134ED6C293EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D8315CB56B4E30E996B8DB /* Pods_pdca.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1261821B1FC869FE00B68E76 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1261821E1FC86A1900B68E76 /* RecordCancel@2x.png */,
+				1261821C1FC86A1900B68E76 /* RecordingBkg@2x.png */,
+				126182231FC86A1900B68E76 /* RecordingSignal001@2x.png */,
+				126182241FC86A1900B68E76 /* RecordingSignal002@2x.png */,
+				1261821D1FC86A1900B68E76 /* RecordingSignal003@2x.png */,
+				126182221FC86A1900B68E76 /* RecordingSignal004@2x.png */,
+				126182201FC86A1900B68E76 /* RecordingSignal005@2x.png */,
+				126182211FC86A1900B68E76 /* RecordingSignal006@2x.png */,
+				1261821F1FC86A1900B68E76 /* RecordingSignal007@2x.png */,
+				126182251FC86A1900B68E76 /* RecordingSignal008@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		12712DBA1FCABA8A00C36EE7 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				12712DBB1FCABAB000C36EE7 /* XMMovableView.h */,
+				12712DBC1FCABAB000C36EE7 /* XMMovableView.m */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		1297C2211FBA8C9700F10FF4 = {
+			isa = PBXGroup;
+			children = (
+				1297C22C1FBA8C9800F10FF4 /* pdca */,
+				1297C22B1FBA8C9800F10FF4 /* Products */,
+				8CFAB9E84809520A01690D60 /* Pods */,
+				0B9FDD2C156134ED6C293EE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1297C22B1FBA8C9800F10FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1297C22A1FBA8C9800F10FF4 /* pdca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1297C22C1FBA8C9800F10FF4 /* pdca */ = {
+			isa = PBXGroup;
+			children = (
+				12712DBA1FCABA8A00C36EE7 /* ui */,
+				12CB00631FC2D985003F39D2 /* record */,
+				1297C22D1FBA8C9800F10FF4 /* AppDelegate.h */,
+				1297C22E1FBA8C9800F10FF4 /* AppDelegate.m */,
+				126182161FC842AB00B68E76 /* test.html */,
+				1297C2301FBA8C9800F10FF4 /* ViewController.h */,
+				1297C2311FBA8C9800F10FF4 /* ViewController.m */,
+				1297C2361FBA8C9800F10FF4 /* Assets.xcassets */,
+				1297C2381FBA8C9800F10FF4 /* LaunchScreen.storyboard */,
+				1297C23B1FBA8C9800F10FF4 /* Info.plist */,
+				1297C23C1FBA8C9800F10FF4 /* main.m */,
+			);
+			path = pdca;
+			sourceTree = "<group>";
+		};
+		12CB00631FC2D985003F39D2 /* record */ = {
+			isa = PBXGroup;
+			children = (
+				1261821B1FC869FE00B68E76 /* images */,
+				1279D4941FC6BE7500CF79D9 /* XHMacro.h */,
+				1279D48F1FC6BDD200CF79D9 /* XHFoundationMacro.h */,
+				1279D4911FC6BDD200CF79D9 /* XHUIKitMacro.h */,
+				1279D4901FC6BDD200CF79D9 /* XHVoiceRecordHelper.h */,
+				1279D48C1FC6BDD200CF79D9 /* XHVoiceRecordHelper.m */,
+				1279D48D1FC6BDD200CF79D9 /* XHVoiceRecordHUD.h */,
+				1279D48E1FC6BDD200CF79D9 /* XHVoiceRecordHUD.m */,
+				126182181FC84D6400B68E76 /* MyRecordMp3View.h */,
+				126182191FC84D6400B68E76 /* MyRecordMp3View.m */,
+				12AFC7F41FC9402300BF6705 /* XHVoiceCommonHelper.h */,
+				12AFC7F31FC9402300BF6705 /* XHVoiceCommonHelper.m */,
+				12AFC7F11FC93FDC00BF6705 /* XHAudioPlayerHelper.h */,
+				12AFC7F01FC93FDC00BF6705 /* XHAudioPlayerHelper.m */,
+			);
+			path = record;
+			sourceTree = "<group>";
+		};
+		8CFAB9E84809520A01690D60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4BF37A01BE243352A7C69D /* Pods-pdca.debug.xcconfig */,
+				2B94A2F861C1140FD7C3580B /* Pods-pdca.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1297C2291FBA8C9800F10FF4 /* pdca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1297C2401FBA8C9800F10FF4 /* Build configuration list for PBXNativeTarget "pdca" */;
+			buildPhases = (
+				BA46402E1177CF87F18AA563 /* [CP] Check Pods Manifest.lock */,
+				1297C2261FBA8C9800F10FF4 /* Sources */,
+				1297C2271FBA8C9800F10FF4 /* Frameworks */,
+				1297C2281FBA8C9800F10FF4 /* Resources */,
+				E8297C81DC1652CE9E7F89D0 /* [CP] Embed Pods Frameworks */,
+				4CF5127A2CD76099F31F397D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdca;
+			productName = pdca;
+			productReference = 1297C22A1FBA8C9800F10FF4 /* pdca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1297C2221FBA8C9700F10FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = glimlab;
+				TargetAttributes = {
+					1297C2291FBA8C9800F10FF4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1297C2251FBA8C9800F10FF4 /* Build configuration list for PBXProject "pdca" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1297C2211FBA8C9700F10FF4;
+			productRefGroup = 1297C22B1FBA8C9800F10FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1297C2291FBA8C9800F10FF4 /* pdca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1297C2281FBA8C9800F10FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1297C23A1FBA8C9800F10FF4 /* LaunchScreen.storyboard in Resources */,
+				126182281FC86A1900B68E76 /* RecordCancel@2x.png in Resources */,
+				1261822F1FC86A1900B68E76 /* RecordingSignal008@2x.png in Resources */,
+				126182291FC86A1900B68E76 /* RecordingSignal007@2x.png in Resources */,
+				1261822E1FC86A1900B68E76 /* RecordingSignal002@2x.png in Resources */,
+				1261822B1FC86A1900B68E76 /* RecordingSignal006@2x.png in Resources */,
+				126182261FC86A1900B68E76 /* RecordingBkg@2x.png in Resources */,
+				126182271FC86A1900B68E76 /* RecordingSignal003@2x.png in Resources */,
+				1297C2371FBA8C9800F10FF4 /* Assets.xcassets in Resources */,
+				1261822D1FC86A1900B68E76 /* RecordingSignal001@2x.png in Resources */,
+				1261822C1FC86A1900B68E76 /* RecordingSignal004@2x.png in Resources */,
+				1261822A1FC86A1900B68E76 /* RecordingSignal005@2x.png in Resources */,
+				126182171FC842AB00B68E76 /* test.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CF5127A2CD76099F31F397D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pdca/Pods-pdca-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA46402E1177CF87F18AA563 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pdca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8297C81DC1652CE9E7F89D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pdca/Pods-pdca-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pdca/Pods-pdca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1297C2261FBA8C9800F10FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12712DBD1FCABAB000C36EE7 /* XMMovableView.m in Sources */,
+				1279D4931FC6BDD200CF79D9 /* XHVoiceRecordHUD.m in Sources */,
+				1297C2321FBA8C9800F10FF4 /* ViewController.m in Sources */,
+				1279D4921FC6BDD200CF79D9 /* XHVoiceRecordHelper.m in Sources */,
+				1297C23D1FBA8C9800F10FF4 /* main.m in Sources */,
+				12AFC7F21FC93FDC00BF6705 /* XHAudioPlayerHelper.m in Sources */,
+				1261821A1FC84D6400B68E76 /* MyRecordMp3View.m in Sources */,
+				1297C22F1FBA8C9800F10FF4 /* AppDelegate.m in Sources */,
+				12AFC7F51FC9402300BF6705 /* XHVoiceCommonHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1297C2381FBA8C9800F10FF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1297C2391FBA8C9800F10FF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1297C23E1FBA8C9800F10FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1297C23F1FBA8C9800F10FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1297C2411FBA8C9800F10FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4BF37A01BE243352A7C69D /* Pods-pdca.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EKKZEF9N7;
+				INFOPLIST_FILE = pdca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glimlab.pdca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1297C2421FBA8C9800F10FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B94A2F861C1140FD7C3580B /* Pods-pdca.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EKKZEF9N7;
+				INFOPLIST_FILE = pdca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glimlab.pdca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1297C2251FBA8C9800F10FF4 /* Build configuration list for PBXProject "pdca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1297C23E1FBA8C9800F10FF4 /* Debug */,
+				1297C23F1FBA8C9800F10FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1297C2401FBA8C9800F10FF4 /* Build configuration list for PBXNativeTarget "pdca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1297C2411FBA8C9800F10FF4 /* Debug */,
+				1297C2421FBA8C9800F10FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1297C2221FBA8C9700F10FF4 /* Project object */;
+}
